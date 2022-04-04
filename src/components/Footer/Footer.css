@@ -1,0 +1,59 @@
+@import url("../../Cores.css");
+
+footer {
+  width: 100%;
+  min-height: 129px;
+  background-color: var(--blue-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contatos,
+.redes-sociais {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contatos ul,
+.redes-sociais ul {
+  display: flex;
+  list-style: none;
+  margin-top: 15px;
+}
+
+.contatos ul li,
+.redes-sociais ul li {
+  margin-right: 23px;
+}
+
+@media screen and (max-width: 1400px) {
+  .contatos ul li a img,
+  .redes-sociais ul li a img {
+    width: 30px;
+  }
+
+  .logo-footer a img {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .footer-container {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .footer-container {
+    width: 80%;
+  }
+}

@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400;500;600&display=swap");
+@import url("./Cores.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--gray05);
+}
+
+h1 {
+  font-size: 40pt;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 32pt;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 24pt;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 16pt;
+  font-weight: 500;
+}
+
+p {
+  font-size: 14pt;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
