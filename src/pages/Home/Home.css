@@ -1,0 +1,99 @@
+@import url("../../Cores.css");
+.banner {
+  width: 100%;
+  height: 654px;
+  background-image: url("../../assets/banner-index.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.content {
+  position: absolute;
+  width: 614px;
+  text-align: left;
+  top: 264px;
+}
+
+.content h1 {
+  font-size: 56px;
+}
+
+.btn-subscribe {
+  width: 354px;
+  height: 64px;
+  background-color: var(--orange-secondary);
+  border: none;
+  border-radius: 100px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 100px;
+}
+
+/**
+Diferenciais
+*/
+.diferenciais {
+  width: 100%;
+  min-height: 548px;
+  background-image: url("../../assets/retangulo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 20px;
+}
+
+.diferenciais h2 {
+  position: relative;
+  top: 33px;
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.diferenciais-content {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.item-diferenciais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1000;
+}
+
+.item-diferenciais img {
+  width: 246.5px;
+  height: 320px;
+}
+
+.item-diferenciais h3 {
+  font-size: 32px;
+  color: #fff;
+  font-style: italic;
+  margin-left: -20px;
+  margin-top: 10px;
+}
+
+.faixa {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: 100px;
+  background-color: var(--blue-primary);
+  top: 278px;
+}
