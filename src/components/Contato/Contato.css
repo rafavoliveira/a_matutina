@@ -1,0 +1,38 @@
+@import url("../../Cores.css");
+.contato {
+  margin-top: 50px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 243px;
+}
+
+.contato > h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 23px;
+}
+
+.contato a {
+  width: 300px;
+  height: 50px;
+  display: block;
+  background-color: var(--blue-primary);
+  border-radius: 100px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.contato a img {
+  margin-right: 5px;
+  width: 30px;
+}

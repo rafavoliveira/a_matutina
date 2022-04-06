@@ -1,0 +1,85 @@
+.cursos {
+  background-color: #fff;
+  width: 100%;
+}
+
+.icone-sol {
+  position: absolute;
+  height: 300px;
+  left: 0;
+}
+
+.icone-sol img {
+  position: relative;
+  height: 100%;
+  top: -55%;
+}
+.slide {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.slide h2 {
+  width: 100%;
+  margin: 30px 20px;
+}
+.item-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.img-slide {
+  height: 300px;
+}
+
+.text-slide {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icone-categoria {
+  max-width: 40px;
+}
+.slide h2 {
+  font-size: 46px;
+  font-weight: 700;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 60px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}

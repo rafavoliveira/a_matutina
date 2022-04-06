@@ -43,6 +43,8 @@
 Diferenciais
 */
 .diferenciais {
+  position: relative;
+  z-index: 2;
   width: 100%;
   min-height: 548px;
   background-image: url("../../assets/retangulo.png");
@@ -96,4 +98,106 @@ Diferenciais
   height: 100px;
   background-color: var(--blue-primary);
   top: 278px;
+}
+
+/**
+Sobre
+*/
+
+.icone {
+  position: absolute;
+  right: 0;
+  height: 900px;
+}
+
+.icone img {
+  position: relative;
+  height: 100%;
+  top: -55%;
+  z-index: -1;
+}
+
+.row {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.row-img {
+  width: 600px;
+}
+
+.row-img img {
+  width: 100%;
+}
+
+.row-text {
+  width: 500px;
+  margin-left: 30px;
+}
+
+.row-text h1 {
+  line-height: 1;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.row-text p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.row:last-of-type {
+  justify-content: flex-end;
+}
+
+.row:last-of-type .row-text {
+  margin-left: 0;
+  margin-right: 30px;
+}
+
+/*media queries*/
+@media screen and (max-width: 1260px) {
+  .row {
+    justify-content: center;
+  }
+  .row-img {
+    width: 90%;
+    max-width: 700px;
+  }
+
+  .row-text {
+    width: 90%;
+    max-width: 700px;
+    margin-left: 0;
+  }
+
+  .row-text h1 {
+    line-height: 1;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 30px;
+  }
+
+  .row-text p {
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  .row:last-of-type {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .row:last-of-type .row-text {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 1080px) {
 }
