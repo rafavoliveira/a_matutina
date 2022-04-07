@@ -1,6 +1,7 @@
 import "./Header.css";
 import logomarca from "../../assets/logo.png";
 import hamburger from "../../assets/hamburger.png";
+import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <header>
@@ -14,7 +15,7 @@ export default function Header() {
               <a href="#">Quem Somos</a>
             </li>
             <li className="item-menu-responsivo">
-              <a href="#">Cursos</a>
+              <Link to="/cursos">Cursos</Link>
             </li>
             <li className="item-menu-responsivo">
               <a href="#">Contato</a>
@@ -23,7 +24,9 @@ export default function Header() {
         </div>
         <div className="logo-container">
           <span>
-            <img className="logo" src={logomarca} alt="logomarca" />
+            <Link to="/">
+              <img className="logo" src={logomarca} alt="logomarca" />
+            </Link>
           </span>
         </div>
         <div className="menu-container">
@@ -32,7 +35,7 @@ export default function Header() {
               <a href="#">Quem Somos</a>
             </li>
             <li className="item-menu">
-              <a href="#">Cursos</a>
+              <Link to="/cursos">Cursos</Link>
             </li>
             <li className="item-menu">
               <a href="#">Contato</a>
