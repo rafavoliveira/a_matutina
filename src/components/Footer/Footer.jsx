@@ -51,6 +51,11 @@ export default function Footer() {
           </ul>
         </div>
       </div>
+      <div className="logo-footer-responsivo">
+        <a href="#">
+          <img src={logo} alt="logo" />
+        </a>
+      </div>
     </footer>
   );
 }

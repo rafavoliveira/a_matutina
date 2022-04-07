@@ -51,16 +51,21 @@ Diferenciais
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 20px;
+
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
 }
 
 .diferenciais h2 {
   position: relative;
   top: 33px;
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
   margin-top: 50px;
   text-align: center;
   text-transform: uppercase;
   font-weight: 600;
+  font-weight: 700;
   font-size: 36px;
 }
 
@@ -197,7 +202,69 @@ Sobre
   .row:last-of-type .row-text {
     margin-right: 0;
   }
+
+  .btn-subscribe {
+    margin-top: 50px;
+  }
 }
 
 @media screen and (max-width: 1080px) {
+  .banner {
+    background-size: auto;
+    background-position: center;
+  }
+
+  .content {
+    position: relative;
+    top: 200px;
+  }
+
+  .content h1 {
+    font-size: 50px;
+  }
+
+  .btn-subscribe {
+    margin-top: 20px;
+  }
+
+  .diferenciais {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .banner {
+    background-size: auto;
+    background-position: center;
+  }
+  .diferenciais {
+    background-position: center;
+  }
+  .diferenciais-content {
+    flex-wrap: wrap;
+  }
+  .item-diferenciais {
+    width: 50%;
+  }
+  .item-diferenciais img {
+    width: 105%;
+    height: 105%;
+  }
+
+  .item-diferenciais h3 {
+    font-size: 32px;
+    color: #fff;
+    font-style: italic;
+    margin-left: -20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .content {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
 }

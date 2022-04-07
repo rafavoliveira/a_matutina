@@ -9,7 +9,13 @@ header {
   justify-content: center;
   align-items: center;
 }
+.container-menu-responsivo {
+  display: none;
+}
 
+.icone-hamburger {
+  display: none;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -23,7 +29,7 @@ nav {
 }
 
 .logo {
-  width: 95%;
+  width: 100%;
   transition: 0.3s all;
 }
 
@@ -72,5 +78,20 @@ nav {
   .menu-container {
     width: 500px;
     margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .icone-hamburger {
+    display: block;
+  }
+  .menu-container {
+    display: none;
+  }
+  nav {
+    justify-content: flex-start;
+  }
+  .logo-container {
+    margin-left: 25%;
   }
 }
