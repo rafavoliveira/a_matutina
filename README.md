@@ -30,13 +30,13 @@
   <li>Crie um novo repositório na sua máquina</li>
   <li>Utilize o comando <code>$git clone</code> para clonar o repositório do projeto para sua máquina</li>
   <li>Utilize o comando <code>`$npm install`</code> no diretório que você realizou o clone do projeto</li>
-  <li>Utilize o comando <code>`$npm start`</code> para executar a aplicação</li>
+  <li>Utilize o comando <code>`$npm run dev`</code> para executar a aplicação</li>
 </ul>
 <h1 id="features">Features</h1>
 
-- [x] Cadastrar Curso
-- [x] Editar Curso
-- [x] Excluir Curso
+- [x] Listagem dos Cursos Disponíveis
+- [x] Filtro por Categoria
+- [x] Página individual de cada Produto
 - [x] Layout Responsivo 
 <h1 id="demo">Demonstração</h1>
 <h3>Tela Inicial</h3>
@@ -54,11 +54,9 @@
 * HTML
 * CSS
 * Javascript
-* Bootstrap
-* Jquery
 * React JS
 
 <h1 id="autores">Autores</h1>
 
- | [<img src="https://avatars.githubusercontent.com/u/73913350?v=4" width=115><br><sub>Alex Ramos</sub>](https://github.com/lxrms) | [<img src="https://avatars.githubusercontent.com/u/68714933?v=4" width=115><br><sub>Olivia Rodrigues</sub>](https://github.com/olirodrigues) | [<img src="https://avatars.githubusercontent.com/u/85843866?v=4" width=115><br><sub>Rafael Vasconcelos</sub>](https://github.com/rafavoliveira) |
-| :---: | :---: | :---: |
+ | [<img src="https://avatars.githubusercontent.com/u/55550732?v=4" width=115><br><sub>Mateus Sousa</sub>](https://github.com/MateusMaciel340) | [<img src="https://avatars.githubusercontent.com/u/85843866?v=4" width=115><br><sub>Rafael Vasconcelos</sub>](https://github.com/rafavoliveira) |
+| :---: | :---: |
