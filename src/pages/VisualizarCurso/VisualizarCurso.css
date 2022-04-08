@@ -1,7 +1,51 @@
+.banner-curso {
+  width: 100%;
+}
+
+.banner-curso img {
+  width: 100%;
+}
+
+.icone-sol img {
+  position: absolute;
+  right: 0;
+  top: 55%;
+}
+
 .detalhes-curso {
   width: 90%;
   max-width: 1100px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 2fr 4fr 2fr;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.dias-da-semana p,
+.data-curso p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.conteudo-curso {
+  margin-top: 50px;
+  width: 90%;
+  max-width: 800px;
+  font-size: 20px;
+}
+
+.investimento {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.icone-logo {
+  width: 80px;
+}
+
+.icone-logo img {
+  width: 100%;
 }

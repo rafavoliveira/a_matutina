@@ -58,21 +58,21 @@ section.todos-cursos {
 
 .detalhes-curso {
   display: flex;
-
   justify-content: space-between;
   align-items: center;
   width: 90%;
+  margin-top: -50px;
 }
 
 .ver-curso {
   width: 90%;
-  height: 40px;
-  border: none;
   font-weight: 600;
   font-size: 22px;
   border-radius: 100px;
   color: #fff;
-  margin-top: 30px;
+  text-align: center;
+  padding-top: 10px;
+  margin: 10px;
 }
 
 .detalhes-curso p {

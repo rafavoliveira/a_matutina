@@ -14,12 +14,12 @@ export default function Cursos() {
   const [cursos, setCursos] = useState([]);
   useEffect(() => {
     axios
-      .get("https://api-transformacao-digital.herokuapp.com/produto")
+      .get(`https://api-transformacao-digital.herokuapp.com/produto`)
       .then((response) => {
         setCursos(response.data);
       })
-      .catch(() => {
-        console.log("Deu errado");
+      .catch((error) => {
+        console.log(error.response.data);
       });
   }, []);
   return (
@@ -64,14 +64,14 @@ export default function Cursos() {
                     {`${curso.cargaHorariaProduto}h [${curso.categorium.nomeCategoria}] `}
                   </p>
                   <img className="icone-categoria" src={corIcone} alt="" />
+                  <Link
+                    to={`/cursos/${curso.idProduto}`}
+                    style={{ backgroundColor: `${corBtn}` }}
+                    className="ver-curso"
+                  >
+                    Ver Curso
+                  </Link>
                 </div>
-                <Link
-                  to={`/cursos/${curso.idProduto}`}
-                  style={{ backgroundColor: `${corBtn}` }}
-                  className="ver-curso"
-                >
-                  Ver Curso
-                </Link>
               </div>
             );
           })}
