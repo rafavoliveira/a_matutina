@@ -5,58 +5,145 @@
     <img alt="Linguagem" src="https://img.shields.io/badge/language-Js-yellow">
     <img alt="Lib" src="https://img.shields.io/badge/lib-React-blue">
 </p>
-<p align="center">
- <a href="#objetivo">Sobre</a> •
-  <a href="#pre-requisitos">Pré-requisitos</a> •
-  <a href="#run">Como executar a Aplicação</a> •
- <a href="#features">Features</a> • 
-  <a href="#demo">Demonstração</a> • 
- <a href="#tecnologias">Tecnologias</a> •
- <a href="#autores">Autores</a>
-</p>
-<h1 id="objetivo">Sobre</h1>
-<p>
-  A Matutina é um protótipo de aplicação web desenvolvido durante o bootcamp Gama XP 40 para simular um ambiente de produção de uma empresa, conectando equipes de UX/UI designer com Desenvolvedores. Este projeto possui sua base em uma plataforma de cursos de transformação digital voltado para profissionais da área de educação, além de conteúdo voltado para a alfabetização digital e promoção de boas práticas nas redes.
-</p>
-<h1 id="pre-requisitos">Pré-requisitos</h1>
-<p>Para conseguir rodar a aplicação na sua máquina é necessário que vocÊ tenha instalado as seguintes ferramentas:</p>
+
+### Sobre o projeto
+
+<a href="https://a-matutina.vercel.app/">Site - Portfólio</a>
+
+Projeto desenvolvido pela integração criada no back-end transformação digital, convertida em dados obtidos através de requisições gerais das rotas produtos e categorias.
+
+
+O sistema ficou desenvolvido da seguinte forma: 
+
+- [x] Pages
+  - [x] Cursos
+    - [x] Cursos.css
+    - [x] Cursos.jsx
+  - [x] Home
+    - [x] Home.css
+    - [x] Home.jsx
+  - [x] VisualizarCurso
+    - [x] VisualizarCursos.css
+    - [x] VisualizarCursos.jsx
+
+
+### A Matutina - Front-end Portfólio
+
+A Matutina é um protótipo de aplicação web desenvolvido durante o bootcamp Gama XP 40 para simular um ambiente de produção de uma empresa, conectando equipes de UX/UI designer com Desenvolvedores. Este projeto possui sua base em uma plataforma de cursos de transformação digital voltado para profissionais da área de educação, além de conteúdo voltado para a alfabetização digital e promoção de boas práticas nas redes.
+
+**Front-end - Portfólio**
+### Funcionalidades
+
+- [x] Pages
+  - [x] Home
+  - [x] Cursos
+  - [x] Curso selecionado (individual)
+
+### Layout
+
+O layout da aplicação da aplicação está disponível abaixo:
+
+<div>
+    <table>
+      <thead>
+        <tr>
+           <th>
+              <img src="src/assets/matutina.gif" width="100%">
+           </th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+</div>
+
+### 🚀 Como executar o projeto
+
+Este projeto é dividido em três partes:
+
 <ul>
-  <li>Git</li>
-  <li>Node.js</li>
+   <li>Desenvolvimento das interfaces do Hipsters</li>
+   <li>Integração das funcionalidades de estilização do CSS</li>
+   <li>Relacionamento Back-end e Front-end para capturar os dados</li>
 </ul>
-<h1 id="run">Como executar a Aplicação</h1>
-<p>Com o Git e o Node.js instalados basta seguir os passos abaixo:</p>
+
+💡 Nossa aplicação foi codificada dentro do React, mas funciona normalmente fora do ambiente react (basta reabrir pela pasta anterior).
+
+#### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/). Alem disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
+
+##### 🧭 Rodando a aplicação web - React
+
+```bash
+
+# Clone este repositório
+$ git clone https://github.com/rafavoliveira/a_matutina.git
+
+# Acesse a pasta do projeto no terminal/cmd - React
+$ cd a_matutina/
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev
+
+# O servidor inciará na porta:3000 - acesse http://localhost:3000
+
+```
+
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+<b>Front-end ([React](https://reactjs.org/))</b>
+
 <ul>
-  <li>Crie um novo repositório na sua máquina</li>
-  <li>Utilize o comando <code>$git clone</code> para clonar o repositório do projeto para sua máquina</li>
-  <li>Utilize o comando <code>`$npm install`</code> no diretório que você realizou o clone do projeto</li>
-  <li>Utilize o comando <code>`$npm run dev`</code> para executar a aplicação</li>
+   <li>HTML - Linguagem de Marcação de Texto</li>
+   <li>CSS - Folha de Estilo em Cascata</li>
+   <li>JavaScript - Linguagem de Programação</li>
+   <li>React - Biblioteca JavaScript</li>
+   <li>Libs extras - Reactjs</li>
 </ul>
-<h1 id="features">Features</h1>
 
-- [x] Listagem dos Cursos Disponíveis
-- [x] Filtro por Categoria
-- [x] Página individual de cada Produto
-- [x] Layout Responsivo 
-<h1 id="demo">Demonstração</h1>
-<h3>Tela Inicial</h3>
-<img width="80%" src="https://i.postimg.cc/9Mg2QXC1/1.png"/><br>
-<h3>Cadastrar Curso</h3>
-<img width="80%" src="https://i.postimg.cc/L47Rdsy8/2.png"/><br>
-<h3>Exclusão de Curso</h3>
-<img width="80%" src="https://i.postimg.cc/mk0G7dcH/3.png"/><br>
-<h3>Editar Curso</h3>
-<img width="80%" src="https://i.postimg.cc/CLq0wVtH/4.png"/><br>
-<h3>Layout Responsivo</h3>
-<img src="https://i.postimg.cc/yxJHgqNK/5.png"/>
-<h1 id="tecnologias">Tecnologias</h1>
 
-* HTML
-* CSS
-* Javascript
-* React JS
+### 👨‍ Contribuidores
 
-<h1 id="autores">Autores</h1>
+<div>
+    <table>
+      <thead>
+        <tr>
+           <th>
+              <img src="https://avatars.githubusercontent.com/u/55550732?v=4" width="150" style="border-radius:62px">
+           </th>
+           <th>
+              <img src="https://avatars.githubusercontent.com/u/85843866?v=4" width="150" style="border-radius:62px">
+           </th>
+        </tr>
+      </thead>
+      <tbody  align="center">
+           <td>
+             Mateus Maciel
+           </td>
+           <td>
+             Rafael Vasconcelos
+           </td>
+      </tbody>
+    </table>
+</div>
 
- | [<img src="https://avatars.githubusercontent.com/u/55550732?v=4" width=115><br><sub>Mateus Sousa</sub>](https://github.com/MateusMaciel340) | [<img src="https://avatars.githubusercontent.com/u/85843866?v=4" width=115><br><sub>Rafael Vasconcelos</sub>](https://github.com/rafavoliveira) |
-| :---: | :---: |
+### 💪 Como contribuir para o projeto
+
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b minha-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m Modificando isso [...]`
+4. Envie as suas alterações: `git push origin minha-feature`
+
+### 📝 Licença
+
+Este projeto esta sobe a licença [MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt).
+
+
+
+
