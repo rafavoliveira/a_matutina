@@ -11,8 +11,11 @@ header {
 }
 .container-menu-responsivo {
   display: none;
+  transition: 0.3s all;
 }
-
+.ativo {
+  display: flex;
+}
 .icone-hamburger {
   display: none;
 }
@@ -84,7 +87,49 @@ nav {
 @media screen and (max-width: 780px) {
   .icone-hamburger {
     display: block;
+    cursor: pointer;
   }
+  .container-menu-responsivo {
+    position: absolute;
+    top: 94px;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue-primary);
+    border-radius: 20px;
+  }
+
+  .menu-responsivo {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .item-menu-responsivo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .item-menu-responsivo img {
+    text-align: left;
+    width: 40px;
+    margin-left: 0;
+    margin-right: 10px;
+  }
+
+  .item-menu-responsivo a {
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
   .menu-container {
     display: none;
   }
@@ -92,6 +137,6 @@ nav {
     justify-content: flex-start;
   }
   .logo-container {
-    margin-left: 25%;
+    margin-left: 23%;
   }
 }

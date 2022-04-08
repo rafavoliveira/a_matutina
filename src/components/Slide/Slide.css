@@ -92,6 +92,7 @@
 @media screen and (max-width: 950px) {
   .slide {
     display: none;
+    visibility: hidden;
   }
 
   .slide-responsivo {

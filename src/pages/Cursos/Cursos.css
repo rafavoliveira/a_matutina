@@ -1,7 +1,7 @@
 @import url("../../Cores.css");
 @import url("../../Global.css");
 
-section.cursos {
+section.todos-cursos {
   width: 100%;
   min-height: 100vh;
 }

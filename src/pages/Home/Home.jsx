@@ -21,7 +21,13 @@ export default function Home() {
           <div className="content">
             <h1>Abra as janelas</h1>
             <h1> para o conhecimento</h1>
-            <button className="btn-subscribe">Inscreva-se</button>
+            <a
+              href="https://taa8wa8r1pa.typeform.com/to/lyXemNvy"
+              target="_blank"
+              className="btn-subscribe"
+            >
+              Inscreva-se
+            </a>
           </div>
         </div>
       </section>

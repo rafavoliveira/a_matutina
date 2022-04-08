@@ -8,6 +8,7 @@ import iconeVerde from "../../assets/icone-verde.png";
 import iconeLaranja from "../../assets/icone-laranja.png";
 import iconeRosa from "../../assets/icone-rosa.png";
 import iconeDefault from "../../assets/icone-default.png";
+import { Link } from "react-router-dom";
 
 export default function Cursos() {
   const [cursos, setCursos] = useState([]);
@@ -24,7 +25,7 @@ export default function Cursos() {
   return (
     <>
       <Header />
-      <section className="cursos">
+      <section className="todos-cursos">
         <div className="titulo-container">
           <h1>Todos os Cursos</h1>
         </div>
@@ -64,12 +65,12 @@ export default function Cursos() {
                   </p>
                   <img className="icone-categoria" src={corIcone} alt="" />
                 </div>
-                <button
+                <Link
                   style={{ backgroundColor: `${corBtn}` }}
                   className="ver-curso"
                 >
                   Ver Curso
-                </button>
+                </Link>
               </div>
             );
           })}

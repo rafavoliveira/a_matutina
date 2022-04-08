@@ -37,6 +37,9 @@
   font-weight: 600;
   cursor: pointer;
   margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /**
@@ -266,5 +269,43 @@ Sobre
     text-align: center;
     width: 90%;
     margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .content {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .content h1 {
+    font-size: 48px;
+  }
+
+  .item-diferenciais {
+    margin: 50px 0 0 0;
+  }
+  .item-diferenciais img {
+    width: 95%;
+    height: 95%;
+  }
+
+  .item-diferenciais h3 {
+    font-size: 28px;
+  }
+
+  .faixa {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .item-diferenciais {
+    width: 100%;
+  }
+
+  .item-diferenciais h3 {
+    color: var(--black);
   }
 }
