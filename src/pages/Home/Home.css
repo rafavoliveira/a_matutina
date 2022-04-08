@@ -250,8 +250,8 @@ Sobre
     width: 50%;
   }
   .item-diferenciais img {
-    width: 105%;
-    height: 105%;
+    width: 95%;
+    height: 95%;
   }
 
   .item-diferenciais h3 {
@@ -286,10 +286,6 @@ Sobre
   .item-diferenciais {
     margin: 50px 0 0 0;
   }
-  .item-diferenciais img {
-    width: 95%;
-    height: 95%;
-  }
 
   .item-diferenciais h3 {
     font-size: 28px;
@@ -301,11 +297,36 @@ Sobre
 }
 
 @media screen and (max-width: 520px) {
+  .content {
+    position: relative;
+    width: 90%;
+
+    text-align: center;
+    top: 150px;
+  }
+
+  .content h1 {
+    font-size: 40px;
+  }
+
+  .btn-subscribe {
+    width: 320px;
+    height: 58px;
+    margin-top: 50px auto;
+  }
   .item-diferenciais {
     width: 100%;
   }
 
   .item-diferenciais h3 {
     color: var(--black);
+  }
+
+  .diferenciais h2 {
+    font-size: 36px;
+  }
+
+  .row-text h1 {
+    font-size: 36px;
   }
 }

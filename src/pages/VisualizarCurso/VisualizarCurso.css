@@ -1,0 +1,7 @@
+.detalhes-curso {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 4fr 2fr;
+}

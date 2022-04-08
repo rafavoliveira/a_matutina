@@ -12,7 +12,7 @@ export default function Routes() {
       <Switch>
         <Route path="/" element={<Home />} />
         <Route path="/cursos" element={<Cursos />} />
-        <Route path="/curso/:id" element={<VisualizarCurso />} />
+        <Route path="/cursos/:id" element={<VisualizarCurso />} />
       </Switch>
     </Router>
   );

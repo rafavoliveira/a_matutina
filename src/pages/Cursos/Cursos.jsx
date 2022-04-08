@@ -66,6 +66,7 @@ export default function Cursos() {
                   <img className="icone-categoria" src={corIcone} alt="" />
                 </div>
                 <Link
+                  to={`/cursos/${curso.idProduto}`}
                   style={{ backgroundColor: `${corBtn}` }}
                   className="ver-curso"
                 >
